@@ -32,7 +32,7 @@ body {
 }
 /* Marking */
 .marking {
-  background-color: #fced16;
+  background-color: #008ab5;
   padding: 30px 0px;
 }
 .marking_title {
@@ -79,7 +79,7 @@ body {
   cursor: pointer;
 }
 .st0:hover {
-  fill: #008ab5;
+  fill: #eed923;
 }
 .marking_inblock {
   width: 100%;
