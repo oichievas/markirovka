@@ -195,6 +195,8 @@ header .header_head {
   border-bottom: 1px solid #ccc;
   color: #61615f;
   align-items: center;
+  font-family: "Circe";
+  font-style: normal;
 }
 
 .header_numbers {
@@ -237,14 +239,13 @@ header .header_head {
 
 .menu__btn {
   display: flex; /* используем flex для центрирования содержимого */
-  align-items: center; /* центрируем содержимое кнопки */
   position: fixed;
-  top: 20px;
   right: 20px;
   width: 26px;
   height: 26px;
   cursor: pointer;
   z-index: 1;
+  position: absolute;
 }
 
 .menu__btn > span,
@@ -314,6 +315,8 @@ nav {
   display: flex;
   padding: 10px;
   justify-content: space-between;
+  font-family: "Circe";
+  font-style: normal;
 }
 
 .menu {
@@ -394,6 +397,8 @@ input.search-txt {
 footer {
   padding: 30px 0px;
   background-color: #63666a;
+  font-family: "Circe";
+  font-style: normal;
 }
 .footer_logo {
   padding: 30px 30px;
@@ -445,7 +450,12 @@ span {
 
   .hamburger-menu {
     display: none;
-    align-items: center;
+  }
+  .border img {
+    border-radius: 38px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-left: 15px;
   }
 }
 
@@ -459,6 +469,11 @@ span {
   .hamburger-menu {
     display: flex;
     align-items: center;
+  }
+  .header_numbers {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
   }
 }
 
@@ -480,6 +495,7 @@ span {
   .hamburger-menu {
     display: flex;
     align-items: center;
+    margin-top: 10px;
   }
   .header_numbers {
     display: none;
