@@ -187,8 +187,7 @@ body {
 /* -----News End------- */
 
 /*---------header--------------------*/
-header {
-}
+
 header .header_head {
   display: flex;
   justify-content: space-between;
@@ -323,7 +322,7 @@ nav {
 .menu li {
   padding: 8px;
   position: relative;
-  color: #61615f;
+  color: #000;
   margin-right: 20px;
 }
 .menu li ul li:hover a {
@@ -338,7 +337,7 @@ li:hover > ul {
 }
 
 .menu h3:hover {
-  border-bottom: 2px solid yellow;
+  border-bottom: 2px solid #008ab5;
 }
 
 li ul {
@@ -504,6 +503,10 @@ span {
   }
   .btn_news {
     padding: 0px;
+  }
+  .news_slider {
+    margin: 0 auto;
+    width: 300px;
   }
 }
 
