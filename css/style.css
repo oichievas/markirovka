@@ -32,7 +32,7 @@ body {
 }
 /* Marking */
 .marking {
-  background-color: #ead40fb8;
+  /* background-color: #0080ff87; */
   padding: 30px 0px;
 }
 .marking_title {
@@ -79,7 +79,7 @@ body {
   cursor: pointer;
 }
 .st0:hover {
-  fill: #f2eb3b;
+  fill: #0482fff5;
 }
 .marking_inblock {
   width: 100%;
@@ -179,10 +179,10 @@ body {
   object-fit: contain;
 }
 .btn_news {
-  padding: 40px 0px 40px 20px;
+  padding: 20px 0px 20px 20px;
 }
 .btn_news:hover {
-  background-color: #f2eb3b;
+  background-color: #0080ff87;
 }
 /* -----News End------- */
 
